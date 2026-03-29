@@ -5,12 +5,12 @@ An Arithmetic Logic Unit (ALU) is the core component of a digital system or proc
 ---
 
 ## Contents
-1. [Intoduction](#Intoduction)
+1. [Intoduction](#intoduction)
 2. [Problem Statement](#Problem-Statement)
 3. [Objectives](#Objectives)
 4. [Key Features](#Key-Features)
 5. [Operations Performed](#Operations-Performed)
-6. [Tools & Technologies](#Tools-&-Technologies)
+6. [Tools & Technologies](#Tools--Technologies)
 7. [Methodology](#Methodology)
 8. [Working Principle](#Working-Principle)
 9. [Results and Analysis](#Results-and-Analysis)
