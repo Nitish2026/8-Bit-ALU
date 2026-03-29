@@ -9,13 +9,20 @@ An Arithmetic Logic Unit (ALU) is the core component of a digital system or proc
 2. [Problem Statement](#Problem-Statement)
 3. [Objectives](#Objectives)
 4. [Key Features](#Key-Features)
-5. [Peripheral Circuits](#Peripheral-Circuits-of-1-Bit-ALU)
-6. [Tools & Technologies](#Tools--Technologies)
-7. [Methodology](#Methodology)
-8. [Working Principle](#Working-Principle)
-9. [Results and Analysis](#Results-and-Analysis)
-10. [Future Scope](#Future-Scope)
-11. [Conclusion](#Conclusion)
+5. [Peripheral Circuits](#Peripheral-Circuits-of-1-Bit-ALU) <br>
+     - [Full Adder](#i.-Full-Adder)  
+     - [Full Subtractor](#ii.-Full-Subtractor)  
+     - [NAND Gate](#iii.-NAND-Gate)  
+     - [XNOR Gate](#iii.-XNOR-Gate)  
+     - [NOT Gate](#iii.-NOT-Gate)  
+     - [NOR Gate](#iii.-NOR-Gate)  
+     - [Right Shift](#vii.-Right-Shift)   
+7. [Tools & Technologies](#Tools--Technologies)
+8. [Methodology](#Methodology)
+9. [Working Principle](#Working-Principle)
+10. [Results and Analysis](#Results-and-Analysis)
+11. [Future Scope](#Future-Scope)
+12. [Conclusion](#Conclusion)
 
 ---
 
@@ -61,16 +68,35 @@ The main objective of this project is to design and implement a scalable and eff
 ---
 
 ## Peripheral Circuits of 1-Bit ALU
-Each 1-bit ALU is capable of performing the following operations:
+Each 1-bit ALU has the following peripheral circuits:
 
-1. Full Adder  
-2. NAND Operation  
-3. XNOR Operation  
-4. NOT Operation  
-5. NOR Operation  
-6. Right Shift (Bit A)  
-7. Right Shift (Bit B)  
-8. Full Subtractor  
+### i. Full Adder  
+  Performs binary addition of inputs A and B along with carry-in.  
+  It produces sum and carry-out for arithmetic operations.
+
+### ii. Full Subtractor  
+  Performs subtraction between inputs A and B with borrow-in.  
+  It generates difference and borrow-out signals.
+
+### iii. NAND Gate  
+  Produces output as the negation of AND operation.  
+  It is a universal gate used for implementing logic functions.
+
+### iv. XNOR Gate  
+  Outputs high when both inputs are equal.  
+  Commonly used for comparison operations.
+
+### v. NOT Gate  
+  Inverts the input signal (0 becomes 1 and vice versa).  
+  Used for bit-wise complement operations.
+
+### vi. NOR Gate  
+  Produces output as the negation of OR operation.  
+  Useful in logic design and also acts as a universal gate.
+
+### vii. Right Shift  
+  Shifts the bits of input A towards the right by one position.  
+  Used in operations like division and data manipulation.
 
 These operations are selected using control/select lines.
 
