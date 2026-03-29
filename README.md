@@ -1,8 +1,17 @@
 # 8-bit Arithmetic Logic Unit (ALU) Design Using Circuit Verse
+An Arithmetic Logic Unit (ALU) is the core component of a digital system or processor that performs arithmetic and logical operations on binary data. It can execute operations like addition, subtraction, AND, OR, and other logic functions. The ALU takes input operands and control signals to determine which operation to perform. It plays a crucial role in data processing and decision-making within a CPU.
+
+
+---
+
+## Contents
+1. [Intoduction](Intoduction)
+2. [Problem Statement](Problem-Statement)
+3. [Objectives](Objectives)
+
+---
 
 ## Introduction
-An **Arithmetic Logic Unit (ALU)** is the core component of a digital system responsible for performing arithmetic and logical operations.
-
 This project presents the design and simulation of an 8-bit Arithmetic Logic Unit (ALU) using a hierarchical and modular approach. The ALU is constructed by combining two 4-bit ALUs, where each 4-bit ALU is further built using four 1-bit ALU units. Each 1-bit ALU is capable of performing multiple operations including ***Arithmetic operation***, as well as ***Logical operations*** along with bit ***Shift operations***. The use of this structured design approach simplifies scalability, improves flexibility, and reduces overall complexity. The complete system is implemented and verified using CircuitVerse to ensure correct functionality for all operations.
 
 The design is implemented and simulated using CircuitVerse.
