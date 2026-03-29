@@ -112,7 +112,7 @@ For logical operations:
 
 ---
 
-## 📊 Results and Analysis
+## Results and Analysis
 - The ALU correctly performs all 8 operations  
 - Modular design simplifies debugging and scalability  
 - Carry propagation works correctly in multi-bit operations  
