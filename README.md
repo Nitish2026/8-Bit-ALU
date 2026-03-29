@@ -78,6 +78,19 @@ Each 1-bit ALU has the following peripheral circuits:
   Performs subtraction between inputs A and B with borrow-in.  
   It generates difference and borrow-out signals.
 
+<table align="center">
+  <tr>
+    <td align="center">
+          <img width="1048" height="337" alt="image" src="https://github.com/user-attachments/assets/ff9c3aff-e8df-4e30-8e15-a3840c528452" /><br/>
+      <small>Fig 1a. 1-Bit Full Adder</small>
+    </td>
+    <td align="center">
+          <img width="1049" height="329" alt="image" src="https://github.com/user-attachments/assets/b0cefd26-87a6-4342-8276-f79ae2f389a1" /><br/>
+      <small>Fig 1b. 1-Bit Full Subtractor</small>
+    </td>
+  </tr>
+</table>
+
 ### iii. NAND Gate  
   Produces output as the negation of AND operation.  
   It is a universal gate used for implementing logic functions.
@@ -97,6 +110,17 @@ Each 1-bit ALU has the following peripheral circuits:
 ### vii. Right Shift  
   Shifts the bits of input A towards the right by one position.  
   Used in operations like division and data manipulation.
+
+<table align="center">
+    <td align="center">
+          <img width="387" height="358" alt="image" src="https://github.com/user-attachments/assets/7f3f6f6c-b9d8-4830-afe2-e56eb3062dfc" /><br/>
+      <small>Fig 1c. Logical block </small>
+    </td>
+    <td align="center">
+          <img width="1042" height="315" alt="image" src="https://github.com/user-attachments/assets/a08c3a6a-44a0-495e-977b-3727dc666c3e" /><br/>
+      <small>Fig 1d. Right Shift Register </small>
+    </td>
+</table>
 
 These operations are selected using control/select lines.
 
