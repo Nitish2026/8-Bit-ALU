@@ -1,25 +1,22 @@
 # 8-bit Arithmetic Logic Unit (ALU) Design Using Circuit Verse
 
-## 📖 Introduction
-An Arithmetic Logic Unit (ALU) is the core component of a digital system responsible for performing arithmetic and logical operations.
+## Introduction
+An **Arithmetic Logic Unit (ALU)** is the core component of a digital system responsible for performing arithmetic and logical operations.
 
-This project presents the design of an **8-bit ALU** using a hierarchical approach:
-- 1-bit ALU (basic unit)
-- 4-bit ALU (constructed using four 1-bit ALUs)
-- 8-bit ALU (constructed using two 4-bit ALUs)
+This project presents the design and simulation of an 8-bit Arithmetic Logic Unit (ALU) using a hierarchical and modular approach. The ALU is constructed by combining two 4-bit ALUs, where each 4-bit ALU is further built using four 1-bit ALU units. Each 1-bit ALU is capable of performing multiple operations including ***Arithmetic operation***, as well as ***Logical operations*** along with bit ***Shift operations***. The use of this structured design approach simplifies scalability, improves flexibility, and reduces overall complexity. The complete system is implemented and verified using CircuitVerse to ensure correct functionality for all operations.
 
 The design is implemented and simulated using CircuitVerse.
 
 ---
 
-## ❗ Problem Statement
+## Problem Statement
 Design a scalable ALU capable of performing multiple arithmetic and logical operations efficiently using a modular approach.
 
 Traditional ALU designs can become complex when scaling to higher bit widths. This project focuses on reducing complexity using hierarchical design.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - To design a 1-bit ALU capable of multiple operations  
 - To construct a 4-bit ALU using 1-bit ALU blocks  
 - To construct an 8-bit ALU using 4-bit ALU blocks  
@@ -28,16 +25,16 @@ Traditional ALU designs can become complex when scaling to higher bit widths. Th
 
 ---
 
-## ✨ Key Features
-- ✅ Hierarchical design (1-bit → 4-bit → 8-bit)  
-- ✅ Modular and scalable architecture  
-- ✅ Supports multiple arithmetic and logic operations  
-- ✅ Efficient use of combinational circuits  
-- ✅ Easy to extend for higher bit-width systems  
+## Key Features
+- Hierarchical design (1-bit → 4-bit → 8-bit)  
+- Modular and scalable architecture  
+- Supports multiple arithmetic and logic operations  
+- Efficient use of combinational circuits  
+- Easy to extend for higher bit-width systems  
 
 ---
 
-## ⚙️ Operations Performed
+## Operations Performed
 Each 1-bit ALU is capable of performing the following operations:
 
 1. Full Adder  
@@ -53,7 +50,7 @@ These operations are selected using control/select lines.
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - CircuitVerse (Simulation)  
 - Digital Logic Design  
 - Components Used:  
@@ -63,7 +60,7 @@ These operations are selected using control/select lines.
 
 ---
 
-## 🧠 Methodology
+## Methodology
 The ALU is designed using a bottom-up approach:
 
 1. **Design of 1-bit ALU**
@@ -84,7 +81,7 @@ The ALU is designed using a bottom-up approach:
 
 ---
 
-## ⚙️ Working Principle
+## Working Principle
 - Inputs: Two 8-bit operands (A and B)  
 - Control signals select the operation  
 - Each 1-bit ALU processes corresponding bits  
@@ -98,11 +95,6 @@ For logical operations:
 
 ---
 
-## 🔗 Project Simulation
-👉 https://circuitverse.org/simulator/embed/alu-a876b67e-f7d1-406c-b691-8cb2c7e5fe75
-
----
-
 ## 📊 Results and Analysis
 - The ALU correctly performs all 8 operations  
 - Modular design simplifies debugging and scalability  
@@ -111,13 +103,7 @@ For logical operations:
 
 ---
 
-## 📷 Output / Screenshots
-(Add your CircuitVerse screenshots here)
-
-
----
-
-## 🚀 Future Scope
+## Future Scope
 - Extend to 16-bit / 32-bit ALU  
 - Add multiplication and division operations  
 - Implement using Verilog/SystemVerilog  
@@ -126,25 +112,13 @@ For logical operations:
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 The project successfully demonstrates a scalable and modular ALU design using a hierarchical approach. By constructing higher-bit ALUs from smaller units, complexity is reduced and flexibility is increased.
 
 This design forms a strong foundation for processor-level implementations.
 
 ---
 
-## 👨‍💻 Contributors
-- Your Name  
-- Teammate Name  
+## 🔗 Project Simulation
+👉 **[Click here](https://circuitverse.org/simulator/embed/alu-a876b67e-f7d1-406c-b691-8cb2c7e5fe75)**
 
----
-
-## 📚 References
-1. Morris Mano, *Digital Design*  
-2. CircuitVerse Documentation  
-3. Online resources on ALU design  
-
----
-
-## ⭐ Acknowledgement
-We sincerely thank our faculty and institution for their guidance and support.
