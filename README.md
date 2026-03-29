@@ -122,18 +122,6 @@ Each 1-bit ALU has the following peripheral circuits:
     </td>
 </table>
 
-These operations are selected using control/select lines.
-
----
-
-## Tools & Technologies
-- CircuitVerse (Simulation)  
-- Digital Logic Design  
-- Components Used:  
-  - Logic Gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)  
-  - Full Adder / Full Subtractor  
-  - Multiplexer  
-
 ---
 
 ## Methodology
