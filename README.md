@@ -9,7 +9,7 @@ An Arithmetic Logic Unit (ALU) is the core component of a digital system or proc
 2. [Problem Statement](#Problem-Statement)
 3. [Objectives](#Objectives)
 4. [Key Features](#Key-Features)
-5. [Operations Performed](#Operations-Performed)
+5. [Peripheral Circuits](#Peripheral-Circuits-of-1-Bit-ALU)
 6. [Tools & Technologies](#Tools--Technologies)
 7. [Methodology](#Methodology)
 8. [Working Principle](#Working-Principle)
@@ -27,31 +27,40 @@ The design is implemented and simulated using CircuitVerse.
 ---
 
 ## Problem Statement
-Design a scalable ALU capable of performing multiple arithmetic and logical operations efficiently using a modular approach.
+In digital systems, Arithmetic Logic Units (ALUs) are essential for performing arithmetic and logical operations. However, traditional ALU designs become complex and difficult to scale when increasing the number of bits, leading to higher hardware complexity and reduced efficiency.
 
-Traditional ALU designs can become complex when scaling to higher bit widths. This project focuses on reducing complexity using hierarchical design.
+There is a need for a modular and scalable design approach that simplifies implementation while maintaining functionality. This project addresses the problem by designing an 8-bit ALU using a hierarchical structure of 1-bit and 4-bit ALU blocks, improving flexibility and ease of expansion.
 
 ---
 
 ## Objectives
-- To design a 1-bit ALU capable of multiple operations  
-- To construct a 4-bit ALU using 1-bit ALU blocks  
-- To construct an 8-bit ALU using 4-bit ALU blocks  
-- To implement both arithmetic and logical operations  
-- To verify the design using simulation  
+The main objective of this project is to design and implement a scalable and efficient 8-bit Arithmetic Logic Unit (ALU) using a hierarchical approach. This includes developing a 1-bit ALU capable of performing multiple arithmetic and logical operations, and then constructing a 4-bit ALU and finally an 8-bit ALU using these basic units. The project also aims to ensure correct functionality of operations while maintaining modularity and ease of expansion. Additionally, the design is verified through simulation to analyze its performance and reliability.
 
 ---
 
 ## Key Features
-- Hierarchical design (1-bit → 4-bit → 8-bit)  
-- Modular and scalable architecture  
-- Supports multiple arithmetic and logic operations  
-- Efficient use of combinational circuits  
-- Easy to extend for higher bit-width systems  
+
+- **Hierarchical Design**  
+  The ALU is designed using a structured approach where an 8-bit ALU is built using two 4-bit ALUs, and each 4-bit ALU is constructed from four 1-bit ALUs, reducing complexity.
+
+- **Modular Architecture**  
+  Each unit (1-bit ALU) is independently designed and reused, making the overall system easy to design, debug, and extend.
+
+- **Control Signal Based Operation**  
+  Operations are selected using control inputs (S2, S1, S0), allowing flexible and efficient switching between different functions.
+
+- **Efficient Carry Propagation**  
+  Carry and borrow signals are properly propagated between stages, ensuring accurate arithmetic operations in multi-bit designs.
+
+- **Scalability**  
+  The design can be easily extended to higher bit-width ALUs (16-bit, 32-bit) by following the same modular structure.
+
+- **Simulation Verified Design**  
+  The entire ALU is tested using CircuitVerse to verify correct functionality for all operations and input combinations.
 
 ---
 
-## Operations Performed
+## Peripheral Circuits of 1-Bit ALU
 Each 1-bit ALU is capable of performing the following operations:
 
 1. Full Adder  
